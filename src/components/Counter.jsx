@@ -6,11 +6,8 @@ export const Counter=()=>{
         <div>
             <h1>count{count}</h1>
             <button onClick={()=>{
-                setCount(count-1)
+                setCount(count+1)
             }}></button>
-            <button onClick={()=>{
-                setCount(count*1)
-            }}>*</button>
         </div>
     )
 }
