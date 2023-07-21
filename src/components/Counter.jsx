@@ -8,6 +8,9 @@ export const Counter=()=>{
             <button onClick={()=>{
                 setCount(count+1)
             }}></button>
+            <button onClick={()=>{
+                setCount(count*1)
+            }}>*</button>
         </div>
     )
 }
